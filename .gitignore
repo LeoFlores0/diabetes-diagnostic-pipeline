@@ -14,6 +14,3 @@ diabetes.csv
 # System Files
 .DS_Store
 Thumbs.db
-
-# Generated Output
-*.png
