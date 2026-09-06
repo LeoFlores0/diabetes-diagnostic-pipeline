@@ -24,7 +24,7 @@ This pipeline scales clinical features, applies **SMOTE (Synthetic Minority Over
 
 Below is the side-by-side performance evaluation on the stratified test set (154 patients: 100 non-diabetic, 54 diabetic):
 
-![alt text](model_comparision.webp)
+![alt text](model_comparison.webp)
 
 ### ROC Curve Comparison
 The Receiver Operating Characteristic (ROC) curve demonstrates that both models maintain high discriminative ability across classification thresholds. However, the SMOTE model's operating point is shifted to prioritize high sensitivity, making it the clear choice for clinical screening applications.
