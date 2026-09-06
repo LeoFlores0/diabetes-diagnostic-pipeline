@@ -1,0 +1,13 @@
+# Python Dependencies for Diabetes Classifier
+# Install using: pip install -r requirements.txt
+
+# Core Data Manipulation & Math
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Machine Learning & Oversampling
+scikit-learn>=1.2.0
+imbalanced-learn>=0.10.0
+
+# Visualization
+matplotlib>=3.7.0

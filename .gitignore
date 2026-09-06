@@ -1,0 +1,19 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Caching
+__pycache__/
+*.pyc
+
+# Dataset
+diabetes.csv
+*.csv
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Generated Output
+*.png
