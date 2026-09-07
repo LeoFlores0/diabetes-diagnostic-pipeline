@@ -59,7 +59,7 @@ SMOTE addresses minority class underrepresentation by generating synthetic data 
 
 ---
 
-### Python Pipeline Architecture (`diabetes_classifier_2.py`)
+### Python Pipeline Architecture (`diabetes_classifier.py`)
 The pipeline is object-oriented and encapsulated within the `DiabetesPipeline` class:
 *   `__init__(filepath, test_size, random_state)`: Initializes the pipeline by immediately loading the CSV dataset, splitting the data with stratified sampling, standardizing the feature matrices without data leakage, and applying SMOTE to balance the training labels.
 *   `train_and_evaluate()`: Trains both the baseline and SMOTE-augmented Logistic Regression models, makes probability predictions, and prints detailed classification reports to the console.
